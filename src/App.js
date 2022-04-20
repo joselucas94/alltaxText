@@ -12,14 +12,14 @@ function App() {
   const [selectedBrand, setSelectedBrand] = useState({});
 
   function findProducts(catSelected) {
-    setSelectedCategoria(categorias.find(cat => cat.name == catSelected));
+    setSelectedCategoria(categorias.find(cat => cat.name === catSelected));
   };
   function findBrands(prodSelected) {
-    setSelectedProduct(selectedCategoria.products.find(cat => cat.name == prodSelected));
+    setSelectedProduct(selectedCategoria.products.find(cat => cat.name === prodSelected));
   };
 
   function selectBrand(braSelected) {
-    setSelectedBrand(selectedProduct.brands.find(cat => cat.name == braSelected));
+    setSelectedBrand(selectedProduct.brands.find(cat => cat.name === braSelected));
     console.log(selectedBrand.sold)
   };
 

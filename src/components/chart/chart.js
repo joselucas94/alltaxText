@@ -1,4 +1,4 @@
-import React, { Component, forceUpdate } from "react";
+import React from "react";
 import Chart from "react-apexcharts";
 
 export default function Charte(props) {
