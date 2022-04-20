@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    align-items: center;
+}
+
+.container-selects{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
